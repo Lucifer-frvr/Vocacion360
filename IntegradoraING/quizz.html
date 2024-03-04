@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quizz</title>
+  <script type="text/javascript" src="pru.js"></script>
+  <link rel="stylesheet" type="text/css" href="dq.css">
+
+</head>
+<body>
+
+<h2>Vocational Test</h2>
+  <form id="testForm">
+    <p>Question 1: What activity do you enjoy the most?</p>
+    <input type="radio" name="op1" onchange="sumaa()"> Reading and writing<br>
+    <input type="radio" name="op1" onchange="sumab()"> Conducting experiments<br>
+    <input type="radio" name="op1" onchange="sumac()"> Solving practical problems<br>
+
+    <p>Question 2: What type of books do you prefer?</p>
+    <input type="radio" name="op2" onchange="sumaa()"> Novels and poetry<br>
+    <input type="radio" name="op2" onchange="sumab()"> Science and technology books<br>
+    <input type="radio" name="op2" onchange="sumac()"> Manuals or technical books<br>
+
+    <p>Question 3: What is your outstanding skill?</p>
+    <input type="radio" name="op3" onchange="sumaa()"> Communication and empathy<br>
+    <input type="radio" name="op3" onchange="sumab()"> Analysis and observation<br>
+    <input type="radio" name="op3" onchange="sumac()"> Logical reasoning<br>
+
+    <p>Question 4: What appeals to you the most about the career?</p>
+    <input type="radio" name="op4" onchange="sumaa()"> Contributing to the well-being of people<br>
+    <input type="radio" name="op4" onchange="sumab()"> Discovering and exploring the world<br>
+    <input type="radio" name="op4" onchange="sumac()"> Designing and building solutions<br>
+
+    <p>Question 5: What do you find most exciting?</p>
+    <input type="radio" name="op5" onchange="sumaa()"> Learning about different cultures and societies<br>
+    <input type="radio" name="op5" onchange="sumab()"> Investigating unknown scientific phenomena<br>
+    <input type="radio" name="op5" onchange="sumac()"> Creating new technologies or innovative products<br>
+
+    <p>Question 6: Which of these topics interests you the most?</p>
+    <input type="radio" name="op6" onchange="sumaa()"> History and art<br>
+    <input type="radio" name="op6" onchange="sumab()"> Biology and chemistry<br>
+    <input type="radio" name="op6" onchange="sumac()"> Mathematics and physics<br>
+
+    <p>Question 7: What type of activities do you prefer to do in your free time?</p>
+    <input type="radio" name="op7" onchange="sumaa()"> Writing or drawing<br>
+    <input type="radio" name="op7" onchange="sumab()"> Exploring nature<br>
+    <input type="radio" name="op7" onchange="sumac()"> Solving puzzles or building things<br>
+
+    <p>Question 8: Which of these areas would you like to investigate further?</p>
+    <input type="radio" name="op8" onchange="sumaa()"> Psychology and sociology<br>
+    <input type="radio" name="op8" onchange="sumab()"> Astrology and astrophysics<br>
+    <input type="radio" name="op8" onchange="sumac()"> Electrical or mechanical engineering<br>
+
+    <p>Question 9: What do you consider most important in a job?</p>
+    <input type="radio" name="op9" onchange="sumaa()"> Sense of purpose and personal satisfaction<br>
+    <input type="radio" name="op9" onchange="sumab()"> Intellectual challenge and discovery<br>
+    <input type="radio" name="op9" onchange="sumac()"> Effectiveness and efficiency in problem-solving<br>
+
+    <p>Question 10: How do you feel in a scientific or technical environment?</p>
+    <input type="radio" name="op10" onchange="sumaa()"> Uncomfortable or disinterested<br>
+    <input type="radio" name="op10" onchange="sumab()"> Curious and fascinated<br>
+    <input type="radio" name="op10" onchange="sumac()"> Enthusiastic and in your element<br>
+
+    <p>Question 11: What do you think about reading and analyzing lengthy reports?</p>
+    <input type="radio" name="op11" onchange="sumaa()"> I find it tedious.<br>
+    <input type="radio" name="op11" onchange="sumab()"> I find it interesting to discover new data.<br>
+    <input type="radio" name="op11" onchange="sumac()"> I feel comfortable analyzing and understanding technical information<br>
+
+    <p>Question 12: What appeals to you most in a career?</p>
+    <input type="radio" name="op12" onchange="sumaa()"> The possibility of helping others<br>
+    <input type="radio" name="op12" onchange="sumab()"> The opportunity to research and make discoveries<br>
+    <input type="radio" name="op12" onchange="sumac()"> The opportunity to design and build things<br>
+
+    <p>Question 13: What type of projects do you prefer to work on as a team?</p>
+    <input type="radio" name="op13" onchange="sumaa()"> Projects that involve the community and social change<br>
+    <input type="radio" name="op13" onchange="sumab()"> Scientific research projects<br>
+    <input type="radio" name="op13" onchange="sumac()"> Engineering projects or product development<br>
+
+    <p>Question 14: What do you like the most about mathematics?</p>
+    <input type="radio" name="op14" onchange="sumaa()"> I don't like mathematics<br>
+    <input type="radio" name="op14" onchange="sumab()"> I enjoy solving complex mathematical problems<br>
+    <input type="radio" name="op14" onchange="sumac()"> I enjoy applying mathematics to solve practical problems<br>
+
+    <p>Question 15: What motivates you to keep learning constantly?</p>
+    <input type="radio" name="op15" onchange="sumaa()"> Understanding the complexity of human emotions<br>
+    <input type="radio" name="op15" onchange="sumab()"> Discovering more about the workings of the natural world<br>
+    <input type="radio" name="op15" onchange="sumac()"> Acquiring technical skills to improve daily life<br>
+
+    <p>Question 16: What type of projects do you prefer to work on alone?</p>
+    <input type="radio" name="op16" onchange="sumaa()"> Creative projects such as writing or painting<br>
+    <input type="radio" name="op16" onchange="sumab()"> Independent scientific research projects<br>
+    <input type="radio" name="op16" onchange="sumac()"> Software development or machine construction projects<br>
+
+    <p>Question 17: What excites you the most about an exhibition or fair?</p>
+    <input type="radio" name="op17" onchange="sumaa()"> The artistic and cultural presentations<br>
+    <input type="radio" name="op17" onchange="sumab()"> The scientific and technological advancements<br>
+    <input type="radio" name="op17" onchange="sumac()"> The displays of engineering and innovative design<br>
+
+    <p>Question 18: Which of these topics appeals to you the most for in-depth discussion?</p>
+    <input type="radio" name="op18" onchange="sumaa()"> Philosophy and ethics<br>
+    <input type="radio" name="op18" onchange="sumab()"> Advancements in science and medicine<br>
+    <input type="radio" name="op18" onchange="sumac()"> New technologies and their potential<br>
+
+    <p>Question 19: What do you find most interesting to solve?</p>
+    <input type="radio" name="op19" onchange="sumaa()"> Conflicts between individuals or groups<br>
+    <input type="radio" name="op19" onchange="sumab()"> Scientific mysteries and unknown challenges<br>
+    <input type="radio" name="op19" onchange="sumac()"> Technical or design problems<br>
+
+    <p>Question 20: Which of these activities do you like the most?</p>
+    <input type="radio" name="op20" onchange="sumaa()"> Reading and writing poetry<br>
+    <input type="radio" name="op20" onchange="sumab()"> Investigating and conducting experiments<br>
+    <input type="radio" name="op20" onchange="sumac()"> Building things with your hands<br>
+
+    <input type="button" value="Finish" onclick="resultados()">
+  </form>
+</body>
+</html>
